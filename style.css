@@ -2076,3 +2076,16 @@ nav.site-nav .nav-links a:hover {
   height: 28px;
   fill: #fff;
 }
+
+/* ============================================
+   FAQ BLOCK (Article FAQ sections)
+   Shared across all article pages — extracted from per-page <style> blocks
+   Used by: <section class="faq-block"> with <details>/<summary>/<p>
+============================================ */
+.faq-block { margin: 40px 0; }
+.faq-block details { background: var(--bg-glass); border: 1px solid var(--border-glass); border-radius: var(--radius-sm); margin-bottom: 10px; }
+.faq-block summary { padding: 16px 20px; font-size: 1.0rem; font-weight: 600; color: var(--text-heading); cursor: pointer; list-style: none; display: flex; justify-content: space-between; align-items: center; }
+.faq-block summary::-webkit-details-marker { display: none; }
+.faq-block summary::after { content: '+'; color: var(--accent); font-size: 1.3rem; font-weight: 300; flex-shrink: 0; }
+.faq-block details[open] > summary::after { content: '−'; }
+.faq-block details > p { padding: 0 20px 16px; font-size: 0.96rem; line-height: 1.8; color: var(--text-primary); font-weight: 300; margin: 0; }
