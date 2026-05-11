@@ -1,93 +1,176 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- ===== עמוד הבית ===== -->
   <url>
-    <loc>https://tzachilavi101-prog.github.io/tsachi-lavia-law/</loc>
-    <lastmod>2026-04-22</lastmod>
+    <loc>https://lavia-adv.co.il/</loc>
+    <lastmod>2026-05-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
+
+  <!-- ===== עמודי Pillar — סמכות נושאית ===== -->
   <url>
-    <loc>https://tzachilavi101-prog.github.io/tsachi-lavia-law/article-cancer-diagnosis.html</loc>
-    <lastmod>2025-01-01</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://tzachilavi101-prog.github.io/tsachi-lavia-law/article-medical-malpractice-signs.html</loc>
-    <lastmod>2025-01-01</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://tzachilavi101-prog.github.io/tsachi-lavia-law/article-car-accident-malpractice.html</loc>
-    <lastmod>2025-01-01</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://tzachilavi101-prog.github.io/tsachi-lavia-law/article-malpractice-limitations.html</loc>
-    <lastmod>2026-04-21</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://tzachilavi101-prog.github.io/tsachi-lavia-law/article-informed-consent-surgery.html</loc>
-    <lastmod>2026-04-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://tzachilavi101-prog.github.io/tsachi-lavia-law/article-informed-consent-case-law.html</loc>
-    <lastmod>2026-04-22</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://tzachilavi101-prog.github.io/tsachi-lavia-law/article-informed-consent-autonomy-damages.html</loc>
-    <lastmod>2026-04-22</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://tzachilavi101-prog.github.io/tsachi-lavia-law/article-informed-consent-special-cases.html</loc>
-    <lastmod>2026-04-22</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://tzachilavi101-prog.github.io/tsachi-lavia-law/article-missed-surgical-diagnosis.html</loc>
-    <lastmod>2026-04-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://tzachilavi101-prog.github.io/tsachi-lavia-law/article-missed-radiology-findings.html</loc>
-    <lastmod>2026-04-22</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://tzachilavi101-prog.github.io/tsachi-lavia-law/article-diagnosis-reassessment-failure.html</loc>
-    <lastmod>2026-04-22</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://tzachilavi101-prog.github.io/tsachi-lavia-law/article-delayed-emergency-surgery.html</loc>
-    <lastmod>2026-04-22</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://tzachilavi101-prog.github.io/tsachi-lavia-law/article-surgical-malpractice.html</loc>
-    <lastmod>2026-04-23</lastmod>
+    <loc>https://lavia-adv.co.il/pillar-surgical-malpractice.html</loc>
+    <lastmod>2026-05-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.95</priority>
   </url>
   <url>
-    <loc>https://tzachilavi101-prog.github.io/tsachi-lavia-law/accessibility.html</loc>
-    <lastmod>2025-01-01</lastmod>
+    <loc>https://lavia-adv.co.il/pillar-birth-malpractice.html</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>https://lavia-adv.co.il/pillar-diagnosis-malpractice.html</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.95</priority>
+  </url>
+
+  <!-- ===== מאמרי אשכול — ניתוחים ===== -->
+  <url>
+    <loc>https://lavia-adv.co.il/article-surgical-malpractice.html</loc>
+    <lastmod>2026-04-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://lavia-adv.co.il/article-missed-surgical-diagnosis.html</loc>
+    <lastmod>2026-04-22</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://lavia-adv.co.il/article-delayed-emergency-surgery.html</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://lavia-adv.co.il/article-anesthesia-malpractice.html</loc>
+    <lastmod>2026-04-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <!-- ===== מאמרי אשכול — לידה והריון ===== -->
+  <url>
+    <loc>https://lavia-adv.co.il/article-birth-malpractice.html</loc>
+    <lastmod>2026-04-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://lavia-adv.co.il/article-cerebral-palsy-malpractice.html</loc>
+    <lastmod>2026-04-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://lavia-adv.co.il/article-pregnancy-malpractice.html</loc>
+    <lastmod>2026-04-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <!-- ===== מאמרי אשכול — אבחון ===== -->
+  <url>
+    <loc>https://lavia-adv.co.il/article-cancer-diagnosis.html</loc>
+    <lastmod>2026-04-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://lavia-adv.co.il/article-stroke-diagnosis.html</loc>
+    <lastmod>2026-04-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://lavia-adv.co.il/article-missed-radiology-findings.html</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://lavia-adv.co.il/article-diagnosis-reassessment-failure.html</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://lavia-adv.co.il/article-family-doctor-referral-negligence.html</loc>
+    <lastmod>2026-04-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://lavia-adv.co.il/article-genetic-malpractice.html</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.70</priority>
+  </url>
+
+  <!-- ===== מאמרי אשכול — הסכמה מדעת ===== -->
+  <url>
+    <loc>https://lavia-adv.co.il/article-informed-consent-surgery.html</loc>
+    <lastmod>2026-04-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://lavia-adv.co.il/article-informed-consent-case-law.html</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://lavia-adv.co.il/article-informed-consent-autonomy-damages.html</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://lavia-adv.co.il/article-informed-consent-special-cases.html</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.70</priority>
+  </url>
+
+  <!-- ===== מאמרים כלליים ===== -->
+  <url>
+    <loc>https://lavia-adv.co.il/article-medical-malpractice-signs.html</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://lavia-adv.co.il/article-malpractice-limitations.html</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://lavia-adv.co.il/article-car-accident-malpractice.html</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://lavia-adv.co.il/article-estate-malpractice.html</loc>
+    <lastmod>2026-04-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+
+  <!-- ===== עמודי מערכת ===== -->
+  <url>
+    <loc>https://lavia-adv.co.il/accessibility.html</loc>
+    <lastmod>2026-05-11</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
+
 </urlset>
