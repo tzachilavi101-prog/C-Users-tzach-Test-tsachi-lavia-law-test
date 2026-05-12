@@ -401,70 +401,7 @@
       line-height: 1.7;
     }
 
-    /* FAQ */
-    .faq-list {
-      margin: 24px 0;
-      display: flex;
-      flex-direction: column;
-      gap: 2px;
-    }
-    .faq-item {
-      background: var(--bg-glass);
-      border: 1px solid var(--border-glass);
-      border-radius: var(--radius-sm);
-      overflow: hidden;
-      transition: border-color var(--transition);
-    }
-    .faq-item.open { border-color: var(--border-glass-hover); }
-    .faq-q {
-      width: 100%;
-      background: none;
-      border: none;
-      cursor: pointer;
-      padding: 18px 22px;
-      text-align: right;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      gap: 16px;
-      font-family: var(--font-body);
-      font-size: 0.97rem;
-      font-weight: 600;
-      color: var(--text-heading);
-      transition: color var(--transition);
-    }
-    .faq-q:hover { color: var(--accent); }
-    .faq-icon {
-      width: 24px; height: 24px;
-      flex-shrink: 0;
-      border: 1px solid rgba(200, 149, 108, 0.3);
-      border-radius: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: var(--accent);
-      font-size: 1.1rem;
-      line-height: 1;
-      transition: transform var(--transition), background var(--transition);
-    }
-    .faq-item.open .faq-icon {
-      transform: rotate(45deg);
-      background: var(--accent-glow);
-    }
-    .faq-a {
-      max-height: 0;
-      overflow: hidden;
-      transition: max-height 0.4s ease, padding 0.3s ease;
-      padding: 0 22px;
-      font-size: 0.93rem;
-      color: var(--text-primary);
-      line-height: 1.85;
-      font-weight: 300;
-    }
-    .faq-item.open .faq-a {
-      max-height: 400px;
-      padding: 0 22px 22px;
-    }
+    /* FAQ block styles moved to style.css */
 
     /* Article CTA */
     .article-cta {
@@ -838,61 +775,29 @@
     <li>לשלוח מסר ברור למערכת הרפואית: רשלנות מחויבת בתוצאות</li>
   </ul>
 
-  <h2>שאלות נפוצות</h2>
-
-  <div class="faq-list">
-
-    <div class="faq-item">
-      <button class="faq-q" onclick="toggleFaq(this)" aria-expanded="false">
-        האם יש מועד אחרון להגשת תביעת עיזבון?
-        <span class="faq-icon" aria-hidden="true">+</span>
-      </button>
-      <div class="faq-a">
-        כן. חוק ההתיישנות קובע תקופה של <strong>7 שנים מיום גילוי הנזק</strong>. במקרים מסוימים — כגון גילוי מאוחר של הקשר בין הטיפול למוות — מניין השנים עשוי להתחיל ממועד הגילוי. מומלץ לפנות לייעוץ משפטי בהקדם האפשרי.
-      </div>
-    </div>
-
-    <div class="faq-item">
-      <button class="faq-q" onclick="toggleFaq(this)" aria-expanded="false">
-        ניתן להגיש תביעת עיזבון שנים לאחר הפטירה?
-        <span class="faq-icon" aria-hidden="true">+</span>
-      </button>
-      <div class="faq-a">
-        תלוי בנסיבות ובמועד גילוי הנזק. קיימים מקרים חריגים שבהם בית המשפט קיבל תביעות שהוגשו מספר שנים לאחר הפטירה בשל גילוי מאוחר של ממצאים רפואיים. לכן חשוב לפנות לבחינת המקרה הספציפי ולא לוותר מראש על הזכות לפיצוי.
-      </div>
-    </div>
-
-    <div class="faq-item">
-      <button class="faq-q" onclick="toggleFaq(this)" aria-expanded="false">
-        מה ההבדל בין תביעת עיזבון לתביעת תלויים?
-        <span class="faq-icon" aria-hidden="true">+</span>
-      </button>
-      <div class="faq-a">
-        תביעת העיזבון (סעיף 19 לפקודת הנזיקין) נתבעת בשמו של <strong>המנוח עצמו</strong> בגין הנזקים שנגרמו לו. תביעת התלויים (סעיף 78) היא תביעה עצמאית של הקרובים בגין הנזק הכלכלי שנגרם להם אישית — אובדן תמיכה ושירותים. שתי התביעות יכולות להיות מוגשות במקביל.
-      </div>
-    </div>
-
-    <div class="faq-item">
-      <button class="faq-q" onclick="toggleFaq(this)" aria-expanded="false">
-        כמה פיצויים מקבלים בתביעת עיזבון?
-        <span class="faq-icon" aria-hidden="true">+</span>
-      </button>
-      <div class="faq-a">
-        הפיצוי משתנה לפי נסיבות המקרה. בפסיקות בתי המשפט נפסקו סכומים כוללים של מעל מיליון שקלים. הגורמים הקובעים: גיל המנוח, הכנסה, גודל משפחה, וחומרת הרשלנות. כל מקרה מחייב בחינה פרטנית.
-      </div>
-    </div>
-
-    <div class="faq-item">
-      <button class="faq-q" onclick="toggleFaq(this)" aria-expanded="false">
-        האם הייעוץ הראשוני כרוך בעלות?
-        <span class="faq-icon" aria-hidden="true">+</span>
-      </button>
-      <div class="faq-a">
-        במשרד עו"ד צחי לביא הייעוץ הראשוני הוא <strong>ללא עלות ומחויבות</strong>. ניתן ליצור קשר בטלפון, בוואטסאפ, או דרך טופס הפנייה באתר.
-      </div>
-    </div>
-
-  </div>
+  <section class="faq-block reveal" aria-labelledby="faq-estate-heading">
+    <h2 id="faq-estate-heading">שאלות נפוצות</h2>
+    <details>
+      <summary>האם יש מועד אחרון להגשת תביעת עיזבון?</summary>
+      <p>כן. חוק ההתיישנות קובע תקופה של <strong>7 שנים מיום גילוי הנזק</strong>. במקרים מסוימים — כגון גילוי מאוחר של הקשר בין הטיפול למוות — מניין השנים עשוי להתחיל ממועד הגילוי. מומלץ לפנות לייעוץ משפטי בהקדם האפשרי.</p>
+    </details>
+    <details>
+      <summary>ניתן להגיש תביעת עיזבון שנים לאחר הפטירה?</summary>
+      <p>תלוי בנסיבות ובמועד גילוי הנזק. קיימים מקרים חריגים שבהם בית המשפט קיבל תביעות שהוגשו מספר שנים לאחר הפטירה בשל גילוי מאוחר של ממצאים רפואיים. לכן חשוב לפנות לבחינת המקרה הספציפי ולא לוותר מראש על הזכות לפיצוי.</p>
+    </details>
+    <details>
+      <summary>מה ההבדל בין תביעת עיזבון לתביעת תלויים?</summary>
+      <p>תביעת העיזבון (סעיף 19 לפקודת הנזיקין) נתבעת בשמו של <strong>המנוח עצמו</strong> בגין הנזקים שנגרמו לו. תביעת התלויים (סעיף 78) היא תביעה עצמאית של הקרובים בגין הנזק הכלכלי שנגרם להם אישית — אובדן תמיכה ושירותים. שתי התביעות יכולות להיות מוגשות במקביל.</p>
+    </details>
+    <details>
+      <summary>כמה פיצויים מקבלים בתביעת עיזבון?</summary>
+      <p>הפיצוי משתנה לפי נסיבות המקרה. בפסיקות בתי המשפט נפסקו סכומים כוללים של מעל מיליון שקלים. הגורמים הקובעים: גיל המנוח, הכנסה, גודל משפחה, וחומרת הרשלנות. כל מקרה מחייב בחינה פרטנית.</p>
+    </details>
+    <details>
+      <summary>האם הייעוץ הראשוני כרוך בעלות?</summary>
+      <p>במשרד עו"ד צחי לביא הייעוץ הראשוני הוא <strong>ללא עלות ומחויבות</strong>. ניתן ליצור קשר בטלפון, בוואטסאפ, או דרך טופס הפנייה באתר.</p>
+    </details>
+  </section>
 
   <div class="article-cta">
     <h2>משפחתכם נפגעה מרשלנות רפואית?</h2>
@@ -956,19 +861,6 @@
 
 <!-- ===== JAVASCRIPT ===== -->
 <script>
-  function toggleFaq(btn) {
-    const item = btn.closest('.faq-item');
-    const isOpen = item.classList.contains('open');
-    document.querySelectorAll('.faq-item.open').forEach(el => {
-      el.classList.remove('open');
-      el.querySelector('.faq-q').setAttribute('aria-expanded', 'false');
-    });
-    if (!isOpen) {
-      item.classList.add('open');
-      btn.setAttribute('aria-expanded', 'true');
-    }
-  }
-
   const reveals = document.querySelectorAll('.reveal');
   if (reveals.length) {
     const observer = new IntersectionObserver((entries) => {

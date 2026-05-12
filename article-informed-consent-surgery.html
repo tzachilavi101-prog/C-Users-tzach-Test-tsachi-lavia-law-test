@@ -174,11 +174,7 @@
     .component-text h3 { font-size: 1.0rem; margin: 0 0 6px; color: var(--text-heading); }
     .component-text p { font-size: 0.95rem; line-height: 1.75; margin-bottom: 0; color: var(--text-primary); }
 
-    /* FAQ */
-    .faq-list { margin: 20px 0; }
-    .faq-item { padding: 16px 22px; margin-bottom: 10px; background: var(--bg-glass); border: 1px solid var(--border-glass); border-radius: var(--radius-sm); }
-    .faq-item h3 { font-size: 1.02rem; margin: 0 0 10px; color: var(--text-heading); }
-    .faq-item p { font-size: 0.96rem; margin-bottom: 0; }
+    /* FAQ block styles moved to style.css */
 
     /* Related Articles / Sibling Links */
     .related-silo { margin: 40px 0 0; padding: 28px; background: linear-gradient(135deg, rgba(240,194,122,0.04), rgba(46,117,182,0.04)); border: 1px solid var(--border-glass); border-radius: var(--radius); }
@@ -423,30 +419,29 @@
 
   <p class="reveal">המקרה ממחיש מדוע ההערכה המשפטית הראשונית אינה נסמכת רק על טופס ההסכמה, אלא על כל רצף האירועים: מתי התקיימה השיחה, מה נאמר בה, מי הציג את הטופסים, מתי, ובאילו נסיבות. <strong>הטופס עצמו הוא רק קצה הקרחון.</strong></p>
 
-  <h2 id="faq" class="reveal">שאלות נפוצות</h2>
-
-  <div class="faq-list reveal">
-    <div class="faq-item">
-      <h3>1. אם חתמתי על טופס — האם אני עדיין יכול לתבוע?</h3>
+  <section class="faq-block reveal" aria-labelledby="faq">
+    <h2 id="faq">שאלות נפוצות</h2>
+    <details>
+      <summary>1. אם חתמתי על טופס — האם אני עדיין יכול לתבוע?</summary>
       <p>כן. חתימה על טופס היא ראיה להסכמה, אבל לא מספיקה. אם לא התקיימה שיחה ממשית ולא הוסבר לכם המידע הנדרש — הטופס לא חוסם תביעה. הפסיקה קבעה במפורש שטופס חתום ללא הסבר אמיתי אינו הסכמה מדעת.</p>
-    </div>
-    <div class="faq-item">
-      <h3>2. כמה זמן יש לי להגיש תביעה על הסכמה מדעת לקויה?</h3>
+    </details>
+    <details>
+      <summary>2. כמה זמן יש לי להגיש תביעה על הסכמה מדעת לקויה?</summary>
       <p>תקופת ההתיישנות בתביעות רשלנות רפואית היא שבע שנים מיום המעשה או מיום שהנזק התגלה. בחלק מהמקרים יש דחייה נוספת אם התובע הוא קטין או במצבים של התגלות מאוחרת. מומלץ לפנות מוקדם ככל האפשר.</p>
-    </div>
-    <div class="faq-item">
-      <h3>3. איך מוכיחים שהרופא לא הסביר כראוי?</h3>
+    </details>
+    <details>
+      <summary>3. איך מוכיחים שהרופא לא הסביר כראוי?</summary>
       <p>באמצעות מספר אפיקים: התיעוד הרפואי (האם מתועדת שיחת ההסבר? כמה זמן נמשכה? מה הוסבר?), עדות של המטופל ושל בני משפחתו, חוות דעת של מומחה רפואי שקובע מה הוסבר כחובה, והשוואה למה שהוסבר בפועל.</p>
-    </div>
-    <div class="faq-item">
-      <h3>4. מה ההבדל בין פגיעה באוטונומיה לבין רשלנות רפואית?</h3>
+    </details>
+    <details>
+      <summary>4. מה ההבדל בין פגיעה באוטונומיה לבין רשלנות רפואית?</summary>
       <p>רשלנות רפואית — כשל טכני בביצוע הטיפול (חתך שגוי, אבחנה שגויה, תקלה בניתוח). פגיעה באוטונומיה — כשל בהסברה לפני הטיפול. שתי העילות עצמאיות. לעיתים מגישים תביעה על שתיהן במקביל.</p>
-    </div>
-    <div class="faq-item">
-      <h3>5. האם רופא מחויב להסביר גם סיכונים נדירים?</h3>
+    </details>
+    <details>
+      <summary>5. האם רופא מחויב להסביר גם סיכונים נדירים?</summary>
       <p>כן, בעיקר בניתוחים אלקטיביים. ככל שההליך פחות דחוף — חובת הגילוי מחמירה. גם סיכונים נדירים שהשלכותיהם חמורות (שיתוק, עיוורון, מוות) חייבים להיות מוסברים, גם אם סיכוייהם נמוכים.</p>
-    </div>
-  </div>
+    </details>
+  </section>
 
   <h2 id="summary" class="reveal">לסיכום — מה לעשות אם אתם חושדים בכשל</h2>
 
