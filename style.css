@@ -2089,3 +2089,31 @@ nav.site-nav .nav-links a:hover {
 .faq-block summary::after { content: '+'; color: var(--accent); font-size: 1.3rem; font-weight: 300; flex-shrink: 0; }
 .faq-block details[open] > summary::after { content: '−'; }
 .faq-block details > p { padding: 0 20px 16px; font-size: 0.96rem; line-height: 1.8; color: var(--text-primary); font-weight: 300; margin: 0; }
+
+/* ============================================
+   ARTICLE BACK LINK
+   Back-to-homepage chip at top of every article / pillar hero.
+   Uses only existing accent token — no new colour values.
+============================================ */
+.article-back-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-family: var(--font-primary);
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--accent);
+  text-decoration: none;
+  margin-bottom: 18px;
+  opacity: 0.8;
+  transition: opacity 0.2s ease;
+  letter-spacing: 0.02em;
+}
+.article-back-link:hover { opacity: 1; }
+
+/* Global .breadcrumbs — mirrors per-page inline rules;
+   used by pages that lacked inline CSS for this class. */
+.breadcrumbs { max-width: var(--container); margin: 14px auto 0; padding: 0 28px; font-size: 0.82rem; color: var(--text-secondary); }
+.breadcrumbs a { color: var(--text-secondary); transition: color 0.2s ease; text-decoration: none; }
+.breadcrumbs a:hover { color: var(--accent); }
+.breadcrumbs span.sep { margin: 0 8px; opacity: 0.4; }
