@@ -128,6 +128,10 @@
     .checklist li { counter-increment: checklist-counter; padding: 14px 20px 14px 20px; padding-inline-start: 52px; margin-bottom: 8px; background: var(--bg-glass); border: 1px solid var(--border-glass); border-radius: var(--radius-sm); font-size: 0.95rem; line-height: 1.7; font-weight: 300; position: relative; }
     .checklist li::before { content: counter(checklist-counter); position: absolute; inset-inline-start: 16px; top: 50%; transform: translateY(-50%); width: 24px; height: 24px; background: rgba(200,149,108,0.15); border: 1px solid rgba(200,149,108,0.35); border-radius: 50%; color: var(--accent); font-size: 0.78rem; font-weight: 600; display: flex; align-items: center; justify-content: center; }
 
+    .steps-list { list-style: none; padding: 0; margin: 16px 0; counter-reset: steps-counter; }
+    .steps-list li { counter-increment: steps-counter; padding: 18px 20px 18px 20px; padding-inline-start: 60px; margin-bottom: 10px; background: linear-gradient(135deg, rgba(200,149,108,0.06), rgba(200,149,108,0.02)); border: 1px solid rgba(200,149,108,0.18); border-radius: var(--radius-sm); font-size: 0.95rem; line-height: 1.75; font-weight: 300; position: relative; }
+    .steps-list li::before { content: counter(steps-counter); position: absolute; inset-inline-start: 16px; top: 18px; width: 28px; height: 28px; background: var(--accent); border-radius: 50%; color: var(--bg-primary); font-size: 0.82rem; font-weight: 700; display: flex; align-items: center; justify-content: center; }
+
     .verdict-box { background: linear-gradient(135deg, rgba(200,149,108,0.08), rgba(200,149,108,0.03)); border: 1px solid rgba(200,149,108,0.2); border-radius: var(--radius); padding: 28px 32px; margin: 32px 0; }
     .verdict-box p { font-size: 1.05rem; font-style: italic; color: var(--text-heading); margin-bottom: 0; line-height: 1.8; }
 
@@ -348,6 +352,13 @@
     <li>האם נשללה ממך הזכות לבחור (הסכמה מדעת לקויה)? אם כן — קיימת עילת פגיעה באוטונומיה שעשויה להיות פתוחה עדיין.</li>
     <li>האם הנפגע היה קטין במועד הטיפול? (אם כן — יש לו עד גיל 25)</li>
   </ul>
+
+  <h2 class="reveal">3 צעדים אם אתה קרוב לקצה ההתיישנות</h2>
+  <ol class="steps-list reveal">
+    <li><strong>אסוף את התיק הרפואי המלא מיד</strong> — בקש מבית החולים ומקופת החולים העתק מלא. בקשה זו לבדה לעיתים "מעצרת" טענות הסתרה.</li>
+    <li><strong>פנה לעו"ד בתוך 30 יום — לא יותר</strong> — גם אם אתה לא בטוח שיש לך תיק. ייעוץ ראשוני ללא עלות יענה על שאלת ההתיישנות.</li>
+    <li><strong>שקול הגשת תביעה מקדמית אפילו בלי חוות דעת רפואית סופית</strong> — אם הזמן קצר, אפשר להגיש כתב תביעה ראשוני שעוצר את מרוץ ההתיישנות, ולחזק אותו אחר כך.</li>
+  </ol>
 
   <h2 class="reveal">לסיכום: אל תוותרו לפני שבדקתם</h2>
   <p class="reveal">הטעות הנפוצה ביותר שאני פוגש היא אנשים שמניחים שנסגרה להם הדלת – ולא טורחים לבדוק. הם מחשבים "עברו 8 שנים, כבר לא רלוונטי" – ולא יודעים שמרוץ ההתיישנות שלהם אולי מעולם לא התחיל, או שהיה עצור בגלל הסתרת מידע, או שעילת הפגיעה באוטונומיה עדיין פתוחה.</p>
