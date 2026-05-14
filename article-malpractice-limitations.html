@@ -124,6 +124,10 @@
     .tips-list { list-style: none; padding: 0; margin: 16px 0; }
     .tips-list li { padding: 14px 20px; margin-bottom: 8px; background: var(--bg-glass); border: 1px solid var(--border-glass); border-radius: var(--radius-sm); font-size: 0.95rem; line-height: 1.7; font-weight: 300; }
 
+    .checklist { list-style: none; padding: 0; margin: 16px 0; counter-reset: checklist-counter; }
+    .checklist li { counter-increment: checklist-counter; padding: 14px 20px 14px 20px; padding-inline-start: 52px; margin-bottom: 8px; background: var(--bg-glass); border: 1px solid var(--border-glass); border-radius: var(--radius-sm); font-size: 0.95rem; line-height: 1.7; font-weight: 300; position: relative; }
+    .checklist li::before { content: counter(checklist-counter); position: absolute; inset-inline-start: 16px; top: 50%; transform: translateY(-50%); width: 24px; height: 24px; background: rgba(200,149,108,0.15); border: 1px solid rgba(200,149,108,0.35); border-radius: 50%; color: var(--accent); font-size: 0.78rem; font-weight: 600; display: flex; align-items: center; justify-content: center; }
+
     .verdict-box { background: linear-gradient(135deg, rgba(200,149,108,0.08), rgba(200,149,108,0.03)); border: 1px solid rgba(200,149,108,0.2); border-radius: var(--radius); padding: 28px 32px; margin: 32px 0; }
     .verdict-box p { font-size: 1.05rem; font-style: italic; color: var(--text-heading); margin-bottom: 0; line-height: 1.8; }
 
@@ -222,6 +226,13 @@
 
 <article class="article-body">
 
+  <!-- ============================================ -->
+  <!-- תשובה מהירה (TL;DR) — נוסף מיד אחרי ה-H1, לפני "כלל הבסיס" -->
+  <!-- ============================================ -->
+  <div class="highlight-box reveal">
+    <p><strong>תשובה מהירה:</strong> תקופת ההתיישנות בתביעות רשלנות רפואית היא 7 שנים — אבל לא תמיד מיום הטיפול. מרוץ ההתיישנות מתחיל ממועד שבו הנפגע ידע, או היה צריך לדעת, על הנזק ועל הקשר בינו לבין ההתרשלות. קטינים יכולים לתבוע עד גיל 25. במקרים של הסתרת מידע או פגיעה באוטונומיה — ההתיישנות עשויה להידחות עוד יותר.</p>
+  </div>
+
   <h2 class="reveal">כלל הבסיס: 7 שנים – אבל לא תמיד</h2>
   <p class="reveal">אחת השאלות הנפוצות ביותר שמגיעות אליי היא: <strong>"עברו כבר כמה שנים – האם לא מאוחר מדי לתבוע?"</strong> התשובה הקצרה היא: לא בהכרח. ובמקרים רבים, האנשים שחושבים שנסגרה להם הדלת – עדיין נמצאים בתוך המסגרת המשפטית.</p>
 
@@ -249,7 +260,7 @@
     <li><strong>4. חפיפה פוטנציאלית.</strong> ייתכן שהבירור המהותי יקרין על שאלת ההתיישנות — אך אין ודאות בכך. בית המשפט מכנה זאת "חפיפה פוטנציאלית".</li>
   </ul>
 
-  <h3 class="reveal">הפתרון הדיוני: מתי להכריע מוקדם ומתי לדחות (פסקה 20)</h3>
+  <h3 class="reveal">הפתרון הדיוני: מתי להכריע מוקדם ומתי לדחות</h3>
   <p class="reveal">לאחר שזיהה את ארבעת המצבים, פנה בית המשפט להציע פתרון מעשי לכל אחד מהם. הציר המנחה אינו כלל מכני, אלא <strong>מבחן של יעילות דיונית לפי מידת החפיפה העובדתית</strong> בין שאלת ההתיישנות לבין השאלה המהותית.</p>
 
   <p class="reveal"><strong>מצב 1 — אין צורך בבירור עובדתי: להכריע מיד.</strong> כאשר הנתבע מוכן להניח, לצורך הדיון, שעובדות כתב התביעה נכונות, וכל המחלוקת היא משפטית בלבד — בית המשפט יכריע בטענת ההתיישנות בשלב המקדמי. ההיגיון פשוט: אם התביעה ממילא התיישנה כעניין של דין, אין הצדקה להשקיע משאבים שיפוטיים ומשאבי הצדדים בניהול הליך מלא. גם אם ההכרעה המשפטית מורכבת — עדיף שתינתן בתחילת הדרך.</p>
@@ -328,6 +339,15 @@
   <div class="verdict-box reveal">
     <p>דיני ההתיישנות ברשלנות רפואית אינם מנגנון טכני בלבד, אלא זירה מורכבת שבה מתנגשים עקרונות של ודאות משפטית, צדק מהותי והגנה על זכויות יסוד. החריגים – גילוי מאוחר, רשלנות מתמשכת ופגיעה באוטונומיה – אינם שוליים. לעיתים קרובות הם המפתח להכרעה בתיק.</p>
   </div>
+
+  <h2 class="reveal">צ׳קליסט: 5 שאלות לבדיקת ההתיישנות שלך</h2>
+  <ul class="checklist reveal">
+    <li>מתי בוצע הטיפול שאתה חושד בו כרשלני? (תאריך ספציפי)</li>
+    <li>מתי לראשונה גילית — או היית יכול לגלות — שהטיפול גרם לך נזק? (לא תאריך הטיפול — תאריך הגילוי)</li>
+    <li>האם המוסד הרפואי הסתיר ממך מידע, או שיש רישומים חסרים בתיק הרפואי?</li>
+    <li>האם נשללה ממך הזכות לבחור (הסכמה מדעת לקויה)? אם כן — קיימת עילת פגיעה באוטונומיה שעשויה להיות פתוחה עדיין.</li>
+    <li>האם הנפגע היה קטין במועד הטיפול? (אם כן — יש לו עד גיל 25)</li>
+  </ul>
 
   <h2 class="reveal">לסיכום: אל תוותרו לפני שבדקתם</h2>
   <p class="reveal">הטעות הנפוצה ביותר שאני פוגש היא אנשים שמניחים שנסגרה להם הדלת – ולא טורחים לבדוק. הם מחשבים "עברו 8 שנים, כבר לא רלוונטי" – ולא יודעים שמרוץ ההתיישנות שלהם אולי מעולם לא התחיל, או שהיה עצור בגלל הסתרת מידע, או שעילת הפגיעה באוטונומיה עדיין פתוחה.</p>
